@@ -23,7 +23,8 @@ def decrypt_message(input):
 
 caesers_shift = 5
 
-while True:
+hold = True
+while hold:
     user_option = input("Do you want to encrypt or decrypt a message? (e/d): ")
     if user_option == "e":
         user_input = input("Write the message you want encoded: ")
@@ -34,5 +35,6 @@ while True:
         lc_input = user_input.lower()
         print(decrypt_message(lc_input))
     else:
+        hold = False
         print("Invalid input. Please try again.")
 
