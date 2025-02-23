@@ -2,26 +2,32 @@
 Build a Caesar Cipher – Implement encryption and decryption using a simple shift cipher.
 Implement AES Encryption/Decryption – Use a library like pycryptodome in Python to encrypt and decrypt messages.
 Password Hashing Tool – Write a script that hashes passwords using bcrypt or Argon2 and verifies them.
+
 2. Web Security
 Simple SQL Injection Tester – Write a script that tests whether a web form is vulnerable to SQL injection.
 XSS Demonstration – Create a small website that demonstrates how Cross-Site Scripting (XSS) attacks work.
 Basic Web Scraper with Security Checks – Build a web scraper while implementing rate-limiting and user-agent switching to avoid detection.
+
 3. Network Security
 Packet Sniffer – Use scapy or socket in Python to capture and analyze network packets.
 Port Scanner – Implement a simple port scanner like nmap that scans for open ports on a target.
 DNS Spoofing Simulator – Write a script that shows how DNS spoofing works using local hosts file modifications.
+
 4. Malware & Exploit Development
 Keylogger (For Ethical Learning Only) – Create a simple keylogger in Python to understand how they work.
 Ransomware Simulation (File Encryption/Decryption) – Write a program that encrypts files and provides a decryption key.
 Buffer Overflow Demonstration – Create a small C program that is vulnerable to a buffer overflow and exploit it.
+
 5. Authentication & Access Control
 Brute Force Password Cracker – Write a script that attempts to crack a password using dictionary attacks.
 Two-Factor Authentication (2FA) Generator – Implement a Time-Based One-Time Password (TOTP) system like Google Authenticator.
 Session Hijacking Demo – Simulate how stealing session cookies can lead to unauthorized access.
+
 6. Security Tools & Monitoring
 Log Analysis Tool – Write a script that analyzes log files for suspicious activity.
 Firewall Rules Simulator – Build a program that takes input and determines whether traffic should be allowed or blocked.
 Honeypot for SSH Attacks – Set up a basic honeypot to log brute-force SSH attack attempts.
+
 7. Reverse Engineering
 Simple CrackMe Challenge – Write a basic program that asks for a password, then try to reverse-engineer it.
 Disassemble and Analyze a Small Binary – Use Ghidra or Radare2 to analyze compiled code.
