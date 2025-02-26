@@ -10,6 +10,7 @@ cipher = AES.new(key, AES.MODE_CBC, iv)
 
 data = input("Enter the data to be encrypted: ").encode('utf-8')
 
+
 padded_data = pad(data, AES.block_size)
 
 ciphertext = cipher.encrypt(padded_data)
